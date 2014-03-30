@@ -9,16 +9,22 @@
     </div>
 </body>
 <template name="interactiveScreen">
-            {{> svgScreen }}
-            <div class="hidden">
-            {{> hiddenVideo }}
-            {{> hiddenCanvas }}
-        </div>
+    {{> svgScreen }}
+    <div class="hidden">
+      {{> hiddenVideo }}
+      {{> hiddenAudio }}
+      {{> hiddenCanvas }}
+    </div>
 </template>
 <template name="hiddenVideo">
      <video id="hiddenVideo" width="480" height="320" preload="auto" style="visibility:hidden" oncanplaythrough="startIfReady()">
        <source src="/atomicplayboy.mp4" type="video/mp4">
      </video>
+</template>
+<template name="hiddenAudio">
+  <audio id='hiddenAudio' preload='auto'>
+    <source src="unrealpm.mp3" type="audio/mpeg">
+  </audio>
 </template>
 <template name="hiddenCanvas">
   <canvas style="visibility:hidden" id="hiddenCanvas" width="480" height="320">
