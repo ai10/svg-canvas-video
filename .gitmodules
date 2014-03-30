@@ -1,0 +1,6 @@
+[submodule "packages/videojs-b3"]
+	path = packages/videojs-b3
+	url = https://github.com/charlesjshort/videojs-b3.git
+[submodule "packages/helpless-b3"]
+	path = packages/helpless-b3
+	url = https://github.com/charlesjshort/helpless-b3.git
