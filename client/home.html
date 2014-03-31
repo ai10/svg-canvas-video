@@ -9,15 +9,26 @@
     </div>
 </body>
 <template name="interactiveScreen">
-    {{> svgScreen }}
-    <div class="hidden">
-      {{> hiddenVideo }}
+   <div class="well span4">
+        <h2>Video</h2>
+        {{> hiddenVideo }}
+    </div>
+    <div class="well span4">
+        <h2>Canvas</h2>
       {{> hiddenAudio }}
       {{> hiddenCanvas }}
     </div>
+    <div class="well span4">
+        <h2>svgScreen</h2>
+        {{> svgScreen }}
+    </div>
+    <div class="well span4">
+        <h2>svgImage</h2>
+        {{> svgImage }}
+    </div>
 </template>
 <template name="hiddenVideo">
-     <video id="hiddenVideo" width="480" height="320" preload="auto" style="visibility:hidden" oncanplaythrough="startIfReady()">
+     <video id="hiddenVideo" width="280" height="120" preload="auto" oncanplaythrough="startIfReady()">
        <source src="/atomicplayboy.mp4" type="video/mp4">
      </video>
 </template>
@@ -27,23 +38,33 @@
   </audio>
 </template>
 <template name="hiddenCanvas">
-  <canvas style="visibility:hidden" id="hiddenCanvas" width="480" height="320">
+  <canvas id="hiddenCanvas" width="280" height="120">
     html5 canvas not supported
   </canvas>
 </template>
 <template name="svgScreen">
-  <svg width="480px" height="320px">
+  <svg width="280px" height="120px">
     <defs>
-      <pattern id="oddPat" patternUnits="userSpaceOnUse" width="480px" height="320px">
-        <image id="iOdd" width="480px" height="320px" xlink:href=""></image>
+      <pattern id="oddPat" patternUnits="userSpaceOnUse">
+        <image id="iOdd" xlink:href=""></image>
       </pattern>
-      <pattern id="evenPat" patternUnits="userSpaceOnUse"  width="480px" height="320px">
-        <image id="iEven" width="480px" height="320px" xlink:href=""></image>
+      <pattern id="evenPat" patternUnits="userSpaceOnUse">
+        <image id="iEven" xlink:href=""></image>
+      </pattern>
+      <pattern id="posterPattern">
+        <image id="iPoster" xlink:href="/comp_poster.jpg"></image>
       </pattern>
     </defs>
-    <rect id="iRect" width="480px" height="320px" fill="url(#oddPat)"></rect>
+    <rect id="iRect" width="280" height="120" fill="url(#oddPat)"></rect>
   </svg>
 </template>
+<template name="svgImage">
+  <svg>
+      <image id="iSVG" width="280" height="120" xlink:href=""></image>
+  </svg>
+</template>
+
+
 
 
 
