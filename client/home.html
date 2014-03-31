@@ -23,10 +23,15 @@
         {{> svgScreen }}
     </div>
     <div class="well span4">
-        <h2>svgImage</h2>
-        {{> svgImage }}
+        <h2>snapSVG image</h2>
+        {{> snapPaper }}
     </div>
 </template>
+<template name="snapPaper">
+  <svg id="snapPaper" height="120" width="280">
+  </svg>
+</template>
+
 <template name="hiddenVideo">
      <video id="hiddenVideo" width="280" height="120" preload="auto" oncanplaythrough="startIfReady()">
        <source src="/atomicplayboy.mp4" type="video/mp4">
@@ -58,12 +63,6 @@
     <rect id="iRect" width="280" height="120" fill="url(#oddPat)"></rect>
   </svg>
 </template>
-<template name="svgImage">
-  <svg>
-      <image id="iSVG" width="280" height="120" xlink:href=""></image>
-  </svg>
-</template>
-
 
 
 

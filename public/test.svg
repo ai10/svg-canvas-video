@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920px"
+	 height="1080px" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+<g id="Layer_3">
+	<g id="long-002_x5F_tk3.psd">
+		<image overflow="visible" width="1920" height="1080" id="long-002_x5F_tk3" xlink:href="3C89A48C.png" >
+		</image>
+	</g>
+</g>
+<g id="Measurement">
+	<path fill="#FCEE21" d="M1177,204.195h-7.453v-2.592H1177v-7.416h2.699v7.416h7.451v2.592h-7.451v7.416H1177V204.195z"/>
+	<g>
+		<g>
+			<g>
+				
+					<line fill="none" stroke="#FCEE21" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" x1="733" y1="841" x2="737.576" y2="834.438"/>
+				
+					<line fill="none" stroke="#FCEE21" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.1768,16.1768" x1="746.828" y1="821.168" x2="1167.799" y2="217.392"/>
+				
+					<line fill="none" stroke="#FCEE21" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" x1="1172.425" y1="210.757" x2="1177" y2="204.195"/>
+			</g>
+		</g>
+		<g>
+			<path fill="#FCEE21" d="M731.963,842.206h-7.452v-2.592h7.452v-7.416h2.7v7.416h7.451v2.592h-7.451v7.416h-2.7V842.206z"/>
+			<path fill="#FCEE21" d="M714.511,835.149l-4.751,1.477l-0.685-2.304l6.155-2.124h2.088v25.379h-2.808V835.149z"/>
+		</g>
+	</g>
+</g>
+<g id="leftHD">
+	<path fill="#4FC1DC" fill-opacity="0.25" stroke="#4FC1DC" stroke-width="2" stroke-miterlimit="10" d="M618,519
+		c0,0,8.736,136.341,29,187c18,45,72,157,181,203c47.428,20.016,166.233,41,166.233,41v17.132c0,0-144.996,6.011-203.117-25.132
+		C709,898,629.584,759.88,615,716.082C588,635,598,526,598,526L618,519z"/>
+	<g>
+		<g opacity="0.5">
+			<text transform="matrix(1 0 0 1 773.7109 719.0811)"><tspan x="0" y="0" font-family="'Gotham-Medium'" font-size="40">LEFT</tspan><tspan x="0" y="48" font-family="'Gotham-Medium'" font-size="40">HEMIDIAPHRAGM</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 770.7109 716.0811)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="40">LEFT</tspan><tspan x="0" y="48" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="40">HEMIDIAPHRAGM</tspan></text>
+		</g>
+	</g>
+</g>
+<g id="Spleen">
+	<path fill="#4FC1DC" fill-opacity="0.25" stroke="#4FC1DC" stroke-width="2" stroke-miterlimit="10" d="M1234.429,337.476
+		c-34.699,65.931-94.495,63-154.492,33.001c-24.017-12.008-52.497,38.998-89.995,49.498c-31.613,8.852-33.963-5.5-47.998,34.499
+		C935.229,473.612,964.668,543.866,990,600c46.073,102.094,69.48,212.815-1.559,280.198C905.945,958.448,764.907,877.045,733,841
+		c-50.393-56.928-68.681-110.54-84.924-154.038c-14.662-39.265-51.768-227.653-26.978-303.648
+		c23.332-71.527,121.836-120.118,199.449-139.954c71.899-18.375,174.524-33.27,218.892-37.875
+		c68.721-7.133,103.495-20.999,145.493-0.752C1224.922,224.013,1260.479,287.979,1234.429,337.476z"/>
+	<g>
+		<g opacity="0.5">
+			<rect x="712.076" y="466.214" fill="none" width="221.08" height="51.19"/>
+			<text transform="matrix(1 0 0 1 712.0757 495.4131)" font-family="'Gotham-Medium'" font-size="40">SPLEEN</text>
+		</g>
+		<g>
+			<rect x="709.076" y="463.214" fill="none" width="221.08" height="51.19"/>
+			<text transform="matrix(1 0 0 1 709.0757 492.4131)" fill="#FFFFFF" font-family="'Gotham-Medium'" font-size="40">SPLEEN</text>
+		</g>
+	</g>
+</g>
+</svg>
